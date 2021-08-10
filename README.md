@@ -9,4 +9,7 @@ Library  SeleniumLibrary
 
 Library  String
 
+# Cleaner the Evidence 
+
+Keyword resource.Preparar ambiente teste 
 
