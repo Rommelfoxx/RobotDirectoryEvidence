@@ -19,10 +19,10 @@ Cenario 2:Consultar produto nao existente
     Então a pagina de consulta é aberta com o resultado "0 results have been found."
 
 ##Historia XXX
-Cenario 3:Adicionar produto carrinho
-    Dado que estou na pagina home
-    Quando adiciono "Dress" no carrinho
-    Então é apresentado o carrinho contendo "Dress"
+# Cenario 3:Adicionar produto carrinho
+#     Dado que estou na pagina home
+#     Quando adiciono "Dress" no carrinho
+#     Então é apresentado o carrinho contendo "Dress"
 
 
 
