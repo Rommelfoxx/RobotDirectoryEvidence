@@ -22,10 +22,10 @@ Cenario 2: Acessar formulario para novo cadastro
     Então é apresentado formulario de cadastro
 
 #Historia XXX
-Cenario 3:Preencher formulario para novo cadastro
-    Dado que estou na tela de cadastro
-    Quando preencho as informações corretamente   Thiago
-    Então o cadastro ocorre com sucesso
+# Cenario 3:Preencher formulario para novo cadastro
+#     Dado que estou na tela de cadastro
+#     Quando preencho as informações corretamente   Thiago
+#     Então o cadastro ocorre com sucesso
 
 #Historia XXX
 #Cenario 4:Acessar formulario para novo cadastro incorreto
