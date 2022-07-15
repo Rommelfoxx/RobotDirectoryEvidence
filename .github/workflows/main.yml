@@ -27,11 +27,11 @@ jobs:
     - name: Install libraries for robot
       run: |
           pip install -U pip
-          pip install -r requirements.txt
+          pip install --upgrade robotframework-seleniumlibrary
     - name: Run Tests
       run: |
             mkdir results
-            robot -d ./reports ./test-case
+            robot -d ./test/reports ./test/test-case
     - name: Upload test results
       uses: actions/upload-artifact@v1
       if: always()
