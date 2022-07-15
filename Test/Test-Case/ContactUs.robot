@@ -1,7 +1,7 @@
 *** Settings ***
 Resource            ../resource/resource.robot 
 Resource            ../resource/pages/home.robot
-Resource            ../resource/pages/contactUs.robot
+Resource            ../resource/pages/contactus.robot
 Suite Setup         Abrir navegador
 Suite Teardown      Fechar navegador
 
