@@ -31,7 +31,7 @@ jobs:
     - name: Run Tests
       run: |
             mkdir results
-            robot -d ./test/reports ./test/test-case
+            robot -d ./test/reports ./Test/Test-case
     - name: Upload test results
       uses: actions/upload-artifact@v1
       if: always()
